@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>彩蛋管理中心 - 关于我们</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>彩蛋管理中心 - 名人堂</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
+            color: #333;
         }
         header {
             background: #333;
             color: #fff;
-            padding: 1rem 0;
+            padding: 1rem;
             text-align: center;
         }
         nav {
-            display: flex;
-            justify-content: center;
             background: #555;
             padding: 0.5rem;
+            display: flex;
+            justify-content: center;
         }
         nav a {
             color: #fff;
@@ -35,124 +36,84 @@
         .container {
             max-width: 800px;
             margin: 2rem auto;
-            padding: 1rem;
             background: #fff;
+            padding: 1rem;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        footer {
+        h2 {
             text-align: center;
-            padding: 1rem;
-            background: #333;
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .team {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-        .team-member {
-            flex: 1 1 calc(33.333% - 1rem);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 1rem;
-            background: #fefefe;
-            text-align: center;
-        }
-        .team-member img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 0.5rem;
-        }
-        .easter-egg {
-            margin: 2rem 0;
-        }
-        .easter-egg h3 {
-            color: #333;
-        }
-        .easter-egg p {
-            margin: 0.5rem 0;
+            color: #444;
         }
         .hall-of-fame {
-            margin: 2rem 0;
-        }
-        .hall-of-fame form {
-            margin-bottom: 1rem;
+            margin-top: 1rem;
         }
         .hall-of-fame ul {
             list-style: none;
             padding: 0;
         }
         .hall-of-fame li {
-            background: #f4f4f4;
+            background: #e9e9e9;
             margin: 0.5rem 0;
             padding: 0.5rem;
-            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px;
+            color: #fff;
+            background: #333;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #444;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>欢迎来到彩蛋管理中心</h1>
+        <h1>彩蛋管理中心</h1>
     </header>
     <nav>
-        <a href="index.html">关于我们</a>
+        <a href="index.html">主页</a>
         <a href="services.html">服务</a>
         <a href="team.html">团队</a>
-        <a href="easter-eggs.html">游戏彩蛋</a>
-        <a href="hall-of-fame.html">名人堂</a>
+        <a href="hall_of_fame.html">名人堂</a>
         <a href="contact.html">联系我们</a>
     </nav>
     <div class="container">
-        <section id="hall-of-fame">
-            <h2>名人堂</h2>
-            <p>在这里输入你的名字，加入我们的名人堂！</p>
-            <form id="fame-form">
-                <label for="name">名字：</label>
-                <input type="text" id="name" name="name" required>
-                <button type="submit">提交</button>
-            </form>
-            <ul id="fame-list"></ul>
-        </section>
+        <h2>名人堂</h2>
+        <p>在这里留下你的名字，成为彩蛋管理中心的一部分！</p>
+        <form id="fameForm">
+            <input type="text" id="nameInput" placeholder="输入你的名字..." required>
+            <button type="submit">提交</button>
+        </form>
+        <div class="hall-of-fame">
+            <h3>已登记的名人</h3>
+            <ul id="fameList"></ul>
+        </div>
     </div>
-
     <footer>
         <p>&copy; 2024 彩蛋管理中心. 保留所有权利。</p>
     </footer>
 
     <script>
-        document.getElementById('fame-form').addEventListener('submit', function (event) {
-            event.preventDefault();
-            const nameInput = document.getElementById('name');
-            const name = nameInput.value.trim();
-            if (name) {
-                const fameList = document.getElementById('fame-list');
-                const listItem = document.createElement('li');
-                listItem.textContent = name;
-                fameList.appendChild(listItem);
+        // 获取名人堂列表和输入表单
+        const fameList = document.getElementById('fameList');
+        const fameForm = document.getElementById('fameForm');
+        const nameInput = document.getElementById('nameInput');
 
-                // Store permanently in localStorage
-                let names = JSON.parse(localStorage.getItem('hallOfFame')) || [];
-                names.push(name);
-                localStorage.setItem('hallOfFame', JSON.stringify(names));
-
-                nameInput.value = '';
-            }
-        });
-
-        // Load names from localStorage on page load
-        window.addEventListener('load', function () {
-            const names = JSON.parse(localStorage.getItem('hallOfFame')) || [];
-            const fameList = document.getElementById('fame-list');
-            names.forEach(name => {
-                const listItem = document.createElement('li');
-                listItem.textContent = name;
-                fameList.appendChild(listItem);
-            });
-        });
-    </script>
-</body>
-</html>
+        // 加载现有名人堂数据
+        const loadFame = () => {
+            const savedFam

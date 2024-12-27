@@ -252,14 +252,11 @@ EEMC最初的使命是将堡司集团的科研技术应用于资源管理与物�
                 <li><a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_V#Reception" target="_blank">《侠盗猎车手V》的幽灵女郎</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Halo_(franchise)#Critical_reception" target="_blank">《光环》的隐藏音乐彩蛋</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Mortal_Kombat#Legacy" target="_blank">《真人快打》的"Toasty!"彩蛋</a></li>
-                <!-- 更多内容可以逐条添加 -->
-                <!-- 示例 -->
                 <li><a href="https://en.wikipedia.org/wiki/Batman:_Arkham_Series#Reception" target="_blank">《蝙蝠侠：阿卡姆疯人院》的隐藏房间</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Portal_(video_game)#Legacy" target="_blank">《传送门》的蛋糕梗</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Call_of_Duty#Reception" target="_blank">《使命召唤》的僵尸模式秘密</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim#Legacy" target="_blank">《上古卷轴V》的巨人彩蛋</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Assassin%27s_Creed#Reception" target="_blank">《刺客信条》的宇宙彩蛋</a></li>
-                <-- 添加更多彩蛋 -->
             </ul>
         </section>
         <section id="hall-of-fame" class="hall-of-fame">

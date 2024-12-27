@@ -117,6 +117,13 @@
             <input type="text" id="searchInput" placeholder="搜索内容...">
             <button onclick="searchContent()">搜索</button>
         </div>
+           <nav>
+            <a href="#company-overview">公司介绍</a>
+            <a href="#basic-info">基本信息</a>
+            <a href="#employee-introductions">员工介绍</a>
+            <a href="#easter-eggs">著名彩蛋</a>
+            <a href="#hall-of-fame">名人堂</a>
+        </nav>
         <section id="company-overview">
     <h1>公司介绍</h1>
     <p>彩蛋管理中心（Easter Egg Management Center, EEMC）是一家总部位于德国的创新型企业，以跨领域的管理和解决方案闻名全球。公司成立于20世纪50年代，起初是作为二战后重建德国经济和科研体系的重要一环。其前身为著名的堡司集团（Fortress Corporation），一个专注于军事技术研发的科研机构。随着战后德国经济从军事导向转向民用领域，堡司集团逐步分化重组，催生了多个新兴企业，EEMC便是其中的杰出代表之一。
@@ -215,6 +222,21 @@ EEMC最初的使命是将堡司集团的科研技术应用于资源管理与物�
         <li>LinkedIn: <a href="https://linkedin.com/company/eemc" target="_blank">linkedin.com/company/eemc</a></li>
         <li>Twitter: <a href="https://twitter.com/EEMC_Global" target="_blank">@EEMC_Global</a></li>
     </ul>
+     <section id="employee-introductions">
+            <h2>员工介绍</h2>
+            <article>
+                <h3>microed - 首席执行官</h3>
+                <p>microed是一位经验丰富的企业领导者，擅长资源整合和战略规划。在他的带领下，公司实现了连续5年的盈利增长。</p>
+            </article>
+            <article>
+                <h3>yidnid - 技术总监</h3>
+                <p>yidnid负责公司技术研发，致力于打造高效的管理系统和数据分析工具。他的技术团队推出了多项行业领先的解决方案。</p>
+            </article>
+            <article>
+                <h3>里斯·恩德 - 营销总监</h3>
+                <p>里斯·恩德在市场营销方面有着独到的见解，通过精准的品牌定位和传播策略，使公司在国际市场上脱颖而出。</p>
+            </article>
+        </section>
 </section>
 
         <section id="easter-eggs">

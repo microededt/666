@@ -208,6 +208,20 @@
     </ul>
 </section>
 
+<section id="faq">
+    <h2>常见问题 (FAQ)</h2>
+    <ul>
+        <li><strong>1. 彩蛋服务适合哪些行业？</strong>
+            <p>我们的服务适用于电商、游戏、教育、娱乐等多个领域，任何需要提升用户互动的产品都能从中受益。</p>
+        </li>
+        <li><strong>2. 如何了解彩蛋的使用效果？</strong>
+            <p>我们提供详尽的数据分析报告，包括用户点击率、停留时长和反馈意见，帮助客户评估效果。</p>
+        </li>
+        <li><strong>3. 彩蛋项目开发需要多长时间？</strong>
+            <p>视项目复杂度而定，一般为1至4周。</p>
+        </li>
+    </ul>
+</section>
 <section id="contact-info">
     <h2>联系方式</h2>
     <p><strong>官方网站：</strong><a href="https://www.eemc.com" target="_blank">www.eemc.com</a></p>

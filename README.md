@@ -1,3 +1,4 @@
+
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
@@ -93,6 +94,13 @@
 <body>
     <header>
         <h1>彩蛋管理中心</h1>
+        <nav>
+            <a href="#employees">员工名称</a> | 
+            <a href="#history">公司历史</a> | 
+            <a href="#easter-eggs">游戏中著名彩蛋</a> | 
+            <a href="#hall-of-fame">名人堂</a> | 
+            <a href="#">主页</a>
+        </nav>
     </header>
     <main>
         <div class="search-box">
@@ -115,6 +123,13 @@
                 <li><a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda" target="_blank">塞尔达传说中的第二任务</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_V" target="_blank">GTA V的幽灵彩蛋</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Halo:_Combat_Evolved" target="_blank">光环：战斗进化的特别对话</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Portal_(video_game)" target="_blank">传送门的蛋糕彩蛋</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Elder_Scrolls_V:_Skyrim" target="_blank">上古卷轴5：天际中的巨人和奶酪</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/World_of_Warcraft" target="_blank">魔兽世界中的烈酒彩蛋</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid" target="_blank">合金装备的心灵探戈对决</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Red_Dead_Redemption_2" target="_blank">荒野大镖客2的外星人目击</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Batman:_Arkham_City" target="_blank">蝙蝠侠：阿卡姆之城的秘密房间</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Assassin%27s_Creed" target="_blank">刺客信条的历史人物彩蛋</a></li>
             </ul>
         </section>
         <section id="hall-of-fame" class="hall-of-fame">
@@ -153,7 +168,7 @@
             }
         }
 
-        // 初始加载名人堂
+     // 初始加载名人堂
         updateNameList();
 
         // 搜索功能

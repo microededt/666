@@ -176,8 +176,8 @@
 
 <section id="target-market">
     <h2>目标市场</h2>
-    <p><strong>客户群体：</strong>跨国企业、中小型企业、政府部门</p>
-    <p><strong>行业覆盖：</strong>制造业、零售业、物流运输、能源行业</p>
+    <p><strong>客户群体：</strong>游戏、电商、教育、品牌营销、广告公司</p>
+    <p><strong>行业覆盖：</strong>游戏、零售、教育、广告</p>
     <p><strong>区域市场：</strong>欧洲、北美、亚洲</p>
 </section>
 

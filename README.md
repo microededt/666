@@ -239,19 +239,27 @@ EEMC最初的使命是将堡司集团的科研技术应用于资源管理与物�
         </section>
 </section>
 
-        <section id="easter-eggs">
+               <section id="easter-eggs">
             <h2>游戏中著名彩蛋</h2>
             <ul>
-                <li>《吃豆人》的隐藏钥匙关卡</li>
-                <li>《毁灭战士》的秘密房间</li>
-                <li>《塞尔达传说》的第二任务</li>
-                <li>《GTA V》的幽灵彩蛋</li>
-                <li>《光环：战斗进化》的隐藏对话</li>
-                <li>《上古卷轴 V：天际》的隐秘巨人洞穴</li>
-                <li>《荒野大镖客 2》的外星人目击事件</li>
-                <li>《魔兽世界》的彩虹桥</li>
-                <li>《超级马里奥》的开发者留言</li>
-                <li>《巫师 3》的捉迷藏任务</li>
+                <li><a href="https://en.wikipedia.org/wiki/Pac-Man#Legacy" target="_blank">《吃豆人》的隐藏钥匙关卡</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Doom_(1993_video_game)#Secrets" target="_blank">《毁灭战士》的秘密房间</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Adventure_(1979_video_game)#Legacy" target="_blank">《冒险》的隐藏开发者签名</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Diablo_(video_game)#Development" target="_blank">《暗黑破坏神》的奶牛关</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda#Game_design" target="_blank">《塞尔达传说》的隐藏迷宫</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Super_Mario_Bros.#Legacy" target="_blank">《超级马里奥兄弟》的秘密管道</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt#Reception" target="_blank">《巫师3》的巨魔彩蛋</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_V#Reception" target="_blank">《侠盗猎车手V》的幽灵女郎</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Halo_(franchise)#Critical_reception" target="_blank">《光环》的隐藏音乐彩蛋</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Mortal_Kombat#Legacy" target="_blank">《真人快打》的"Toasty!"彩蛋</a></li>
+                <!-- 更多内容可以逐条添加 -->
+                <!-- 示例 -->
+                <li><a href="https://en.wikipedia.org/wiki/Batman:_Arkham_Series#Reception" target="_blank">《蝙蝠侠：阿卡姆疯人院》的隐藏房间</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Portal_(video_game)#Legacy" target="_blank">《传送门》的蛋糕梗</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Call_of_Duty#Reception" target="_blank">《使命召唤》的僵尸模式秘密</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim#Legacy" target="_blank">《上古卷轴V》的巨人彩蛋</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Assassin%27s_Creed#Reception" target="_blank">《刺客信条》的宇宙彩蛋</a></li>
+                <-- 添加更多彩蛋 -->
             </ul>
         </section>
         <section id="hall-of-fame" class="hall-of-fame">

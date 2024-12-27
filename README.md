@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
@@ -94,13 +94,6 @@
 <body>
     <header>
         <h1>彩蛋管理中心</h1>
-        <nav>
-            <a href="#employees">员工名称</a> | 
-            <a href="#history">公司历史</a> | 
-            <a href="#easter-eggs">游戏中著名彩蛋</a> | 
-            <a href="#hall-of-fame">名人堂</a> | 
-            <a href="#">主页</a>
-        </nav>
     </header>
     <main>
         <div class="search-box">
@@ -109,11 +102,27 @@
         </div>
         <section id="employees">
             <h2>员工名称</h2>
-            <p>microed, yidnid, 里斯·恩德</p>
+            <ul>
+                <li><a href="#employee-microed">microed</a></li>
+                <li><a href="#employee-yidnid">yidnid</a></li>
+                <li><a href="#employee-rhysend">里斯·恩德</a></li>
+            </ul>
         </section>
         <section id="history">
             <h2>公司历史</h2>
             <p>彩蛋管理中心（EEMC）是一家总部位于德国的创新型企业，以跨领域的管理和解决方案闻名全球。公司成立于20世纪50年代，起初是作为二战后重建德国经济和科研体系的重要一环。其前身为著名的堡司集团（Fortress Corporation），一个专注于军事技术研发的科研机构。随着战后德国经济从军事导向转向民用领域，堡司集团逐步分化重组，催生了多个新兴企业，EEMC便是其中的杰出代表之一。 EEMC最初的使命是将堡司集团的科研技术应用于资源管理与物流领域，帮助德国重建期间的基础设施和工业快速恢复。由于其对系统化管理和资源优化的独到见解，公司在短短数年内便从区域性企业发展为全国性服务商。 进入21世纪，EEMC进一步拓展了业务领域，逐步涉足智能管理系统、可持续资源利用和供应链优化等高科技行业。如今，公司不仅延续了堡司集团在科研与技术领域的优良传统，还成功将这些技术转化为民用市场的核心竞争力。EEMC的使命是通过创新和管理，将复杂问题简单化，为全球客户提供可持续的解决方案。 作为一个脱胎于历史的企业，EEMC承载了技术创新与社会责任的双重使命，展现了德国企业在转型与重建中的坚韧与智慧。</p>
+        </section>
+        <section id="employee-microed">
+            <h2>员工介绍：microed</h2>
+            <p>microed 是彩蛋管理中心的首席技术官（CTO），专注于系统优化和新技术研发。他以敏锐的创新思维和严谨的工作态度闻名。</p>
+        </section>
+        <section id="employee-yidnid">
+            <h2>员工介绍：yidnid</h2>
+            <p>yidnid 是彩蛋管理中心的运营主管，擅长团队管理和流程优化。他的领导能力使得多个项目得以高效推进。</p>
+        </section>
+        <section id="employee-rhysend">
+            <h2>员工介绍：里斯·恩德</h2>
+            <p>里斯·恩德 是彩蛋管理中心的客户关系经理，以出色的沟通能力和客户服务闻名。他是公司与客户之间的桥梁。</p>
         </section>
         <section id="easter-eggs">
             <h2>游戏中著名彩蛋</h2>
@@ -123,13 +132,6 @@
                 <li><a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda" target="_blank">塞尔达传说中的第二任务</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_V" target="_blank">GTA V的幽灵彩蛋</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Halo:_Combat_Evolved" target="_blank">光环：战斗进化的特别对话</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Portal_(video_game)" target="_blank">传送门的蛋糕彩蛋</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Elder_Scrolls_V:_Skyrim" target="_blank">上古卷轴5：天际中的巨人和奶酪</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/World_of_Warcraft" target="_blank">魔兽世界中的烈酒彩蛋</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid" target="_blank">合金装备的心灵探戈对决</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Red_Dead_Redemption_2" target="_blank">荒野大镖客2的外星人目击</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Batman:_Arkham_City" target="_blank">蝙蝠侠：阿卡姆之城的秘密房间</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Assassin%27s_Creed" target="_blank">刺客信条的历史人物彩蛋</a></li>
             </ul>
         </section>
         <section id="hall-of-fame" class="hall-of-fame">
@@ -168,7 +170,7 @@
             }
         }
 
-     // 初始加载名人堂
+        // 初始加载名人堂
         updateNameList();
 
         // 搜索功能

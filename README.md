@@ -235,6 +235,7 @@
             <h2>员工介绍</h2>
             <article>
                 <h3>microed - 首席执行官</h3>
+                <img src="employee1.jpg" alt="员工1头像">
                 <p>microed是一位经验丰富的企业领导者，擅长资源整合和战略规划。在他的带领下，公司实现了连续5年的盈利增长。</p>
             </article>
             <article>

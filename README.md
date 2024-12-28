@@ -235,17 +235,17 @@
     <h2>员工介绍</h2>
     <div class="team-container">
         <article class="team-member">
-            <img src="images/microed.jpg" alt="microed头像">
+            <img src="microed.jpg" alt="microed头像">
             <h3>microed - 首席执行官</h3>
             <p>microed是一位经验丰富的企业领导者，擅长资源整合和战略规划。在他的带领下，公司实现了连续5年的盈利增长。</p>
         </article>
         <article class="team-member">
-            <img src="images/yidnid.jpg" alt="yidnid头像">
+            <img src="yidnid.jpg" alt="yidnid头像">
             <h3>yidnid - 技术总监</h3>
             <p>yidnid负责公司技术研发，致力于打造高效的管理系统和数据分析工具。他的技术团队推出了多项行业领先的解决方案。</p>
         </article>
         <article class="team-member">
-            <img src="images/reece_end.jpg" alt="里斯·恩德头像">
+            <img src="reece_end.jpg" alt="里斯·恩德头像">
             <h3>里斯·恩德 - 营销总监</h3>
             <p>里斯·恩德在市场营销方面有着独到的见解，通过精准的品牌定位和传播策略，使公司在国际市场上脱颖而出。</p>
         </article>

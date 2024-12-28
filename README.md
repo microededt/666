@@ -337,17 +337,3 @@
     </script>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Click Easter Egg</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <p id="trigger">Click me to reveal a secret!</p>
-    <div id="secret" style="display: none;">🎉 You found the Easter egg! 🎉</div>
-    <script src="script.js"></script>
-</body>
-</html>
